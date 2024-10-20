@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+
+    flex-direction: column;
+}
+.form label {
+    margin: 30px 20px 5px 0;
+    font-size: 1.3rem;
+    color: red;
+    cursor: pointer;
+}
+.form input {
+    width: 300px;
+    margin: 10px 20px 10px 0;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 1.1rem;
+}
+.form button {
+    margin-right: 15px;
+    width: 100px;
+    border: none;
+    background-color: rgb(79, 247, 247);
+    color: gray;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form button:hover {
+    transition: all 0.3s;
+    color: #fff;
+    background-color: #6495ed;
+}
+
+.form button:disabled {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+}

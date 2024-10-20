@@ -1,0 +1,63 @@
+.container {
+    padding: 10px;
+    margin: 10px 30px;
+    border-top: 2px solid gray;
+}
+.container h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+.container h3 span {
+    color: red;
+    margin-right: 15px;
+}
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgb(224, 164, 153);
+    border-radius: 5px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.buttons button {
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    background-color: red;
+    padding: 5px 20px;
+}
+
+.buttonChange button {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #f39c12;
+    padding: 5px 20px;
+}
+
+.buttonChange span button {
+    background-color: blueviolet;
+}
+.buttonChange input {
+    padding: 10px 10px 10px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.arrow_icon {
+    transition: transform 0.3s ease;
+}
+
+.rotate .arrow_icon {
+    transform: rotate(
+        180deg
+    ); /* این باعث می‌شود که فلش 180 درجه چرخیده و به سمت پایین نشان داده شود */
+}
